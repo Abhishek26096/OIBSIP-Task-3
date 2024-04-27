@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    background-color:aqua;
+}
+
+.container {
+    text-align: center;
+    background: pink;
+    padding: 30px;
+    border-radius: 8px;
+    border: solid;
+}
+
+input, select, button {
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+button {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    width: 250px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 25px;
+    color: red;
+    background-color: black;
+    border: 8px solid black;
+}
